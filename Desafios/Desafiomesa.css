@@ -1,63 +1,45 @@
-.container {  display: grid;
-    grid-template-columns: 0.7fr 1.1fr 1.1fr 1.1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 35px 200px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "M1 N1 N2 N3"
-      "M2 N4 N5 N6"
-      "M3 N7 N8 N9"
-      "M4 N10 N11 N12";
-
-      padding: 15px 0 0 15px;
-      width: 1200px;
-      height: 550px;
-  }
-  
-  .M1 { grid-area: M1; }
-  
-  .M2 { grid-area: M2; }
-  
-  .M3 { grid-area: M3; }
-  
-  .M4 { grid-area: M4; }
-  
-  .N1 { grid-area: N1; }
-  
-  .N2 { grid-area: N2; }
-  
-  .N3 { grid-area: N3; }
-  
-  .N4 { grid-area: N4; }
-  
-  .N5 { grid-area: N5; }
-  
-  .N6 { grid-area: N6; }
-  
-  .N7 { grid-area: N7; }
-  
-  .N8 { grid-area: N8; }
-  
-  .N9 { grid-area: N9; }
-  
-  .N10 { grid-area: N10; }
-  
-  .N11 { grid-area: N11; }
-  
-  .N12 { grid-area: N12; }
-  
-.M1, .M2, .M3, .M4{
-    background-color: yellow;
-    justify-content: center;
+*{
+    font-family: ubuntu;
 }
 
-.N9, .N12, .N6, 
-.N2, .N5, .N10{
-    background-color: rgb(6, 214, 6);
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(151, 136, 136);
 }
 
-.N11, .N7, .N1,
-.N4, .N3, .N8{
-    background-color: red;
+header{
+    background-color: rgb(250, 247, 247);
+    font-size: 50px;
 }
-  
+
+.container{
+    display: flex;
+}
+
+.reserva{
+    background-color: rgb(32, 32, 32);
+    height: 530px;
+    width: 350px;
+    
+}
+
+.nom, .cpf, .mes{
+    text-align: center;
+    padding: 30px 0px 15px;
+    color: antiquewhite;
+}
+
+.janela{
+    font-size: 18px;
+}
+
+.janelamesa{
+    height: 25px;
+    width: 60px;
+}
+
+.confirm{
+    text-align: center;
+
+}

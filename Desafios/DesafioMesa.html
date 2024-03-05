@@ -3,31 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio das Mesas</title>
+    <title>Mesas</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
     <link rel="stylesheet" href="Desafiomesa.css">
 </head>
 <body>
-    <div class="container">
+   <header class="intro">Restaurante Raimundo Celi</header>
 
-        <div class="M1">C1</div>
-        <div class="M2">C2</div>
-        <div class="M3">C3</div>
-        <div class="M4">C4</div>
+   <div class="container">
 
-            <div class="N1">01</div>
-            <div class="N2">02</div>
-            <div class="N3">03</div>
-            <div class="N4">04</div>
-            <div class="N5">05</div>
-            <div class="N6">06</div>
-            <div class="N7">07</div>
-            <div class="N8">08</div>
-            <div class="N9">09</div>
-            <div class="N10">10</div>
-            <div class="N11">11</div>
-            <div class="N12">12</div>
-
-        
+    <div class="reserva">
+       <div class="nom">
+      <label for="nome">Nome</label>
+      <input class="janela" type="text" name="nome" id="nome">
     </div>
+
+    <div class="cpf">
+      <label for="cpf">CPF</label>
+      <input class="janela" type="text" name="cpf" id="cpf">
+    </div>
+
+    <div class="mes">
+      <label for="mesa">Mesas</label>
+      <select class="janelamesa" name="selecionar" id=""> 
+        <option value="m">M1</option>
+        <option value="m">M2</option>
+        <option value="m">M3</option>
+        <option value="m">M4</option>
+        <option value="m">M5</option>
+        <option value="m">M6</option>
+        <option value="m">M7</option>
+        <option value="m">M8</option>
+        <option value="m">M9</option>
+        <option value="m">M10</option>
+      </select>
+    </div>
+
+    <div class="confirm">
+      <button>Confirmar</button>
+      <button>Reservar</button>
+    </div>
+
+    </div>
+
+    <div class="mesas">
+      <div>M1</div>
+      <div>M2</div>
+      <div>M3</div>
+      <div>M4</div>
+      <div>M5</div>
+      <div>M6</div>
+      <div>M7</div>
+      <div>M8</div>
+      <div>M9</div>
+      <div>M10</div>
+    </div>
+
+   </div>
 </body>
 </html>
